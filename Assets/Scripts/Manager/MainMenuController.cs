@@ -20,7 +20,7 @@ public class MainMenuController : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void HowToPlay()
@@ -35,7 +35,7 @@ public class MainMenuController : MonoBehaviour
 
     public void TryAgain()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 
     public void CloseHowToPlay()

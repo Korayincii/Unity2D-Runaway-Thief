@@ -108,6 +108,6 @@ public class CharacterStats : MonoBehaviour
     private IEnumerator LoadDeadScene()
     {
         yield return new WaitForSeconds(2);
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
 }
